@@ -38,7 +38,7 @@ const Cards = () => {
                     <div className="card-body">
                     <h5 className="card-title">Sistema de postagens</h5>
                     <p className="card-text">Sistema com cadastro, login e postagens do usuário</p>
-                    <button onClick={postsApp} className="btn btn-warning col-sm-12 col-lg-5    x">Projeto no GitHub</button>
+                    <button onClick={postsApp} className="btn btn-warning col-sm-12 col-lg-5">Projeto no GitHub</button>
                     </div>
                 </div>
                 <div className="card bg-dark">
