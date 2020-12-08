@@ -2,22 +2,17 @@ import React, { useState, useEffect } from 'react';
 
 const Cripto = () => {
     const [coin, setCoin] = useState([]);
-    //const [coins, setCoins] = useState([])
 
     useEffect(async () => {
         const res = await fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=f2e60ab4-81b7-4b03-8fc9-1a34c8c72ce7');
-        //setCoin(await res.json());
         const dados = await res.json();
         setCoin(dados.data)
     }, [])
 
-    //const coins = coin.data;
-
-   // console.log(coins)
-
     return (
     <>
     <div className="container">
+
             <h1>Criptomoedas</h1>
         </div>
         <div className="table-responsive-xl text-light">
