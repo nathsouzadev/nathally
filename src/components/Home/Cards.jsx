@@ -21,7 +21,7 @@ const Cards = () => {
         <>
             <h1>Projetos</h1>
             <div className="card-group">
-                <div className="card bg-dark col-lg-4">
+                <div className="card bg-dark">
                     <img src={soccer} className="card-img-top p-1" alt=".Soccershop"/>
                     <div className="card-body">
                         <h5 className="card-title">Soccershop</h5>
