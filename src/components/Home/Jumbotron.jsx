@@ -22,9 +22,9 @@ const Jumbotron = () => {
                 <p className="lead"><Typist cursor={{ hideWhenDone: true }}>Estudante de programação na Recode Pro</Typist></p>
                 <hr className="my-4"/>
                 <div className="redes">
-                    <i className="text-info fab fa-linkedin-in m-1" onClick={linkedin}></i>
-                    <i className="fab fa-github m-1" onClick={git}></i>
-                    <i className="text-info fab fa-twitter m-1" onClick={twitter}></i>                   
+                    <i className="rede text-info fab fa-linkedin-in m-1" onClick={linkedin}></i>
+                    <i className="rede fab fa-github m-1" onClick={git}></i>
+                    <i className="rede text-info fab fa-twitter m-1" onClick={twitter}></i>                   
                 </div>
             </div>
         </>
