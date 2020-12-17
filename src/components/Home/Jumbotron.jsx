@@ -19,7 +19,7 @@ const Jumbotron = () => {
         <>
             <div className="jumbotron text-dark">
                 <h1 className="display-4">Nathally Souza</h1>
-                <p className="lead"><Typist>Estudante de programação na Recode Pro</Typist></p>
+                <p className="lead"><Typist cursor={{ hideWhenDone: true }}>Estudante de programação na Recode Pro</Typist></p>
                 <hr className="my-4"/>
                 <div className="redes">
                     <i className="text-info fab fa-linkedin-in m-1" onClick={linkedin}></i>

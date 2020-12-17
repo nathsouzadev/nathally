@@ -3,8 +3,8 @@ import study from '../../assets/aprender-programar.png';
 
 const Post1 = () => {
     return(
-        <div className="card text-white bg-dark">
-      <div className="card-body">
+      <div className="card text-white bg-dark">
+        <div className="card-body">
         <h5 className="card-title">Como eu comecei a estudar programação</h5>
         <h6 className="card-subtitle mb-2 text-muted">13/12/2020 - 11h01</h6>
         <img src={study} className="card-img-top" alt="estudar programação"></img>
