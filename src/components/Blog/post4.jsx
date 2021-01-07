@@ -39,7 +39,7 @@ const Post4 = () => {
         </ul>
         <p className="card-text">
           Além dessa lista existem vários outros comandos para configurações do
-          Git via terminal. A lista completa pode ser acessada clicando aqui.
+          Git via terminal. A lista completa pode ser acessada <a href="https://gist.github.com/leocomelli/2545add34e4fec21ec16" target="_blank" rel="noreferrer">clicando aqui</a>.
         </p>
       </div>
     </div>
