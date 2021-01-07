@@ -1,0 +1,17 @@
+[
+    {"item": "git init - Inicializa o git no repositório local"},
+    {"item": "git remote -v - Informa o endereço de URL do repositório remoto"},
+    {"item": "git remote add origin - Adiciona um endereço para o repositório remoto"},
+    {"item": "git branch - Exibe a branch na qual estamos trabalhando"},
+    {"item": "git clone URL - clona o repositório indicado na URL"},
+    {"item": "git branch -a - lista todas as branchs que existem no repositório remoto do repositório clonado"},
+    {"item": "git clone -b BRANCH URL - clona uma branch específica do repositório remoto indicado na URL"},
+    {"item": "git branch NOVA-BRANCH - cria uma nova branch"},
+    {"item": "git checkout BRANCH - alterna a localização para uma branch já existente"},
+    {"item": "git checkout -b NOVA-BRANCH - cria uma nova branch e altera a localização para ela"},
+    {"item": "git add . - adiciona todas as alterações ao commit"},
+    {"item": "git add ARQUIVO.EXT - adiciona um arquivo específico ao commit"},
+    {"item": "git add DIRETORIO - adiciona um diretório específico ao commit"},
+    {"item": "git commit -m NOME-DO-COMMIT - adiciona uma etiqueta ao commit e commita as alterações"},
+    {"item": "git push -u - atualiza o repositório remoto com o último commit"}
+]

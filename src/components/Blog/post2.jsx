@@ -51,7 +51,7 @@ const Post2 = () => {
             className="card-img-top"
             alt="digitando"
           ></img>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             Hoje vou fazer um pequeno tutorial sobre como acrescentar o efeito
             de digitando em seus projetos com React. Ao longo desses dias estava
             estudando sobre animações para CSS e buscando formas de simplificar
@@ -59,7 +59,7 @@ const Post2 = () => {
             ferramenta simples e que pode adicionar muito dinamismo aos seus
             projetos.
           </p>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             O react-typist é altamente personalizável e com uma documentação
             simples disponível no github. Para utilizá-lo é necessário instalar
             sua dependência no projeto e fazer a importação nos componentes onde
@@ -68,7 +68,7 @@ const Post2 = () => {
           <div className="shadow-lg p-3 mb-3 bg-secondary text-dark rounded">
             npm install react-typist --save
           </div>
-          <p class="card-text">
+          <p className="card-text">
             Clique no botão para ver uma breve demonstração do react-typist.
           </p>
           <div className="card text-center bg-dark mb-3">
@@ -84,7 +84,7 @@ const Post2 = () => {
             <br />
             {line2}
           </div>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             Para fazer esse exemplo, criamos um estado que define o texto
             inicial vazio e somente após chamar a função com o clique no botão
             ele atribui o texto à variável e o reproduz na tela. Uma propriedade
@@ -94,7 +94,7 @@ const Post2 = () => {
           <div className="shadow-lg p-3 mb-3 bg-secondary text-dark rounded">
             {cursor}
           </div>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             O valor false é configurado por padrão. É importante destacar que o
             texto que será renderizado com esse efeito precisa ser digitado
             entre as tags Typist. Outra propriedade que pode ser configurada é a
@@ -113,12 +113,12 @@ const Post2 = () => {
           <div className="shadow-lg p-3 mb-3 bg-secondary text-dark rounded">
             {codigoDelay}
           </div>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             Observando o código do exemplo, vemos que podemos alterar a
             velocidade de digitação em qualquer trecho do elemento. Podemos ter
             um elemento com várias velocidades de digitação ao longo do corpo.
           </p>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             Uma última propriedade interessante é a Typist.Backspace. Ela faz o
             efeito de apagar um texto renderizado e pode substituí-lo por outro
             texto ou até deixar em branco, de acordo com o configurado.
@@ -134,7 +134,7 @@ const Post2 = () => {
           <div className="shadow-lg p-3 mb-3 bg-secondary text-dark rounded">
             {codigoBack}
           </div>
-          <p class="card-text mt-3">
+          <p className="card-text mt-3">
             Como observamos no exemplo e no código a propriedade count declarada
             dentro de Typist.Backspace é a responsável por definir quantos
             espaços serão apagados. No caso do nosso exemplo, além de apagar o
