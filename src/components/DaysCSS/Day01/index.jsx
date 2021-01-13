@@ -9,7 +9,7 @@ const Day01 = () => {
                 <div className="box-item">
                     <ul className="box-ul">
                         <li className="box-li">
-                            <a href="#">
+                            <a href="#css">
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
@@ -19,7 +19,7 @@ const Day01 = () => {
                         </li>
                 
                         <li className="box-li">
-                            <a href="#">
+                            <a href="#css">
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
@@ -29,7 +29,7 @@ const Day01 = () => {
                         </li>
 
                         <li className="box-li">
-                            <a href="#">
+                            <a href="#css">
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
@@ -39,7 +39,7 @@ const Day01 = () => {
                         </li>
                 
                         <li className="box-li">
-                            <a href="#">
+                            <a href="#css">
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
@@ -49,7 +49,7 @@ const Day01 = () => {
                         </li>
 
                         <li className="box-li">
-                            <a href="#">
+                            <a href="#css">
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
                                 <span className="box-span"></span>
