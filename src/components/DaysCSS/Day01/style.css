@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.box-ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.box-li {
+    list-style: none;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-30deg) skew(25deg);
+    margin: 0 10px;
+}
+
+.box-span {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    transition: 0.8s;
+    border-radius: 50%;
+    display: flex !important;
+}
+
+.box-li:hover span{
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+}
+
+.box-li:hover span:nth-child(1){
+    transform: translate(0,0);
+    opacity: 0.2;
+}
+
+.box-li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+.box-li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+.box-li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+.box-li:hover span:nth-child(5){
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+.box-li:nth-child(1) span{
+    background: black;
+}
+
+.box-li:nth-child(2) span{
+    background: rgb(29, 161, 242);
+}
+
+.box-li:nth-child(3) span{
+    background: rgb(10, 102, 194);
+}
+
+.box-li:nth-child(4) span{
+    background: rgb(138, 42, 74);
+}
+
+.box-li:nth-child(5) span{
+    background: #3b5999;
+}
