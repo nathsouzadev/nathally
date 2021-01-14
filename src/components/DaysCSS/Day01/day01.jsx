@@ -1,10 +1,10 @@
 import Icon from './icon.jsx';
 import './style.css';
 
-const Day01 = (props) => {
+const Day01 = () => {
     return(
         <>
-            <div className="box" id={props.id}>
+            <div className="box" id="day01">
                 <h1>Desafio 1</h1>
                 <h2>Ícones em camadas</h2>
                 <div className="box-item">
